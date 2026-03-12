@@ -165,6 +165,29 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 20.0
+  - Name: ScaleLayout1
+    Type: ScaleLayout
+    Children:
+    - Name: OriginalWidth
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: OriginalHeight
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 300.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 180.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 230.0
 - Name: M1
   Id: g=3050846a0d45b92a4c9f00d0d3c21635
   Supertype: Screen
