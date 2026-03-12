@@ -119,6 +119,19 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 570.0
+  - Name: VerticalLayout1
+    Type: ColumnLayout
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 210.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
 - Name: M1
   Id: g=3050846a0d45b92a4c9f00d0d3c21635
   Supertype: Screen
